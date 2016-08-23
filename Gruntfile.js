@@ -188,6 +188,10 @@ module.exports = function (grunt) {
                     }
                 },
                 dest: 'tmp/less.js'
+            },
+            rhino: {
+                src: ['./lib/less-rhino/index.js'],
+                dest: 'dist/rhino/less-rhino.js'
             }
         },
         concat: {
